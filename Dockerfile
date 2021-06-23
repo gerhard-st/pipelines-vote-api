@@ -1,4 +1,5 @@
-FROM 192.168.100.12:31313/gerhardstenzel/odoci as builder
+#FROM 192.168.100.12:31313/gerhardstenzel/odoci as builder
+FROM node2.cluster.local:31313/gerhardstenzel/odoci as builder
 
 WORKDIR /build
 ADD . /build/
